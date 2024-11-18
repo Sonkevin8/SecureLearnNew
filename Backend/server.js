@@ -9,7 +9,7 @@ const db=mysql.createConnection({
     host : 'localhost',
     user :"root",  
     password : "password",
-    databasde : "securelearn_db"
+    database : "securelearn_db"
 })
 
 app.get('/',(req,res)=>{
