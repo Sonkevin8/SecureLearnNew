@@ -1,4 +1,4 @@
-const express=require('express');
+const express = require('express');
 const mysql=require('mysql');
 const cors=require('cors');
 
@@ -8,8 +8,8 @@ app.use(cors());
 const db=mysql.createConnection({
     host : 'localhost',
     user :"root",  
-    password : "password",
-    databasde : "securelearn_db"
+    password : "",
+    database : "securelearn_db"
 })
 
 app.get('/',(req,res)=>{
