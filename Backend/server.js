@@ -27,16 +27,15 @@ app.use(express.json());
 
 app.post('/login', (req, res) => {
     const { username, password } = req.body;
-
-    // Secure parameterized query
-    const sql = 'SELECT * FROM users WHERE username = ? AND password = ?';
     
-    db.query(sql, [username, password], (err, result) => {
+    // Vulnerable SQL query using direct string interpolation
+    const sql = `SELECT * FROM users WHERE username = '${username}' AND password = '${password}'`;
+    
+    db.query(sql, (err, result) => {
         if (err) {
             console.error('Database error:', err);
             return res.status(500).send('Server error');
         }
-
         if (result.length > 0) {
             res.send('Login successful');
         } else {
