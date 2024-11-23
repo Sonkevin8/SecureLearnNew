@@ -1,8 +1,7 @@
 {
   "name": "frontend",
   "version": "1.0.0",
-  "main": "index.html",
-
+  "private": true,
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
@@ -15,3 +14,4 @@
     "react-scripts": "4.0.3"
   }
 }
+
