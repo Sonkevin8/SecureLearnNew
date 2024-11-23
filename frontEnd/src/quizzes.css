@@ -42,8 +42,8 @@ html, body {
 .contentBox {
     background-color: blue;
     width: 20vw;
-        height: 55vh;
-        margin: 5vw;
+     height: 60vh;
+     margin: 5vw;
     padding: 0vw; 
     text-align: center;
     font-size: medium; 
@@ -54,7 +54,7 @@ html, body {
     color: white;
 }
 
-#loginpageButton {
+#appButton {
     background-color: aqua;
     height: 5vh;
     width: 10vw; 
