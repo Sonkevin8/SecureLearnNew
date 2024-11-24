@@ -5,12 +5,11 @@ const CyberSecurity = () => {
         <div>
             <h1>CyberSecurity Material</h1>
             <ul>
-                <li>What are the Cyber Threats?</li>
-                <li>What is a white hat hacker? </li>
-                <li>How to become a white hat hacker</li>
+                <li>What is cyber attack</li>
+                <li>What is cybersecurity</li>
+
             </ul>
         </div>
-
     );
 };
 
