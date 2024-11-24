@@ -30,7 +30,7 @@ app.post('/login', (req, res) => {
     
     // Vulnerable SQL query using direct string interpolation
     const sql = `SELECT * FROM users WHERE username = '${username}' AND password = '${password}'`;
-    
+    console.log(sql);
     db.query(sql, (err, result) => {
         if (err) {
             console.error('Database error:', err);
