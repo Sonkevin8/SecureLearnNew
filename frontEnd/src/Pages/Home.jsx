@@ -1,11 +1,15 @@
 import React from 'react';
-function Home() {
+
+const Home = () => {
     return (
         <div>
-            <h1>Welcome to SecureLearn New</h1>
-            <p> This is a website to allow you have a full understanding of cyber security and how to be an ethical hacker. </p>
+            <h1>Welcome to SecurnLearn New</h1>
+            <h2>This web app will allow you to understand about the cyber security and useful tools to assist to become a white hat hacker.
+             </h2>
+             <p>Please click on Cyber Security to learn more about cybersecurity. </p>
         </div>
     );
-} 
+    
+};
 
-export default Home;
+export default Home; 
