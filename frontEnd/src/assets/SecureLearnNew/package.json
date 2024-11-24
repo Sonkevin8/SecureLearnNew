@@ -1,5 +1,5 @@
 {
-  "name": "securelearnnew",
+  "name": "frontend",
   "version": "1.0.0",
   "private": true,
   "scripts": {
@@ -14,3 +14,4 @@
     "react-scripts": "4.0.3"
   }
 }
+
