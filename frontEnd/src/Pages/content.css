@@ -115,7 +115,7 @@ nav li:first-child {
     flex-grow: 1;
 }
 
-#appButton {
+#sqlpractice {
     background-color: aqua;
     height: 5vh;
     width: 80%;
@@ -129,6 +129,6 @@ nav li:first-child {
     align-self: center;
 }
 
-#appButton:hover {
+#sqlpractice:hover {
     background-color: lightblue;
 }
