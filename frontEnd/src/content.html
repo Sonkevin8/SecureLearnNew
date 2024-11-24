@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quizzes Page</title>
+    <link rel="stylesheet" href="content.css">
+</head>
+<body>
+    <div id="MainContainer">
+        <nav>
+            <ul>
+                <li><a href="#">secure learn</a></li>
+                <li><a href="#home">home</a></li>
+                <li><a href="#test">test</a></li>
+                <li><a href="#settings">settings</a></li>
+                <li><a href="#profile">profile</a></li>
+            </ul>
+        </nav>
+
+        <div class="contentContainer">
+            <div class="contentBoxWithButton">
+                <h1>SQL Injection</h1>
+                <p>
+                    SQL Injection is a web security vulnerability that allows attackers to manipulate a website’s database by injecting malicious SQL queries through user input fields. For example, in a login form, an attacker might input ' OR 1=1 --, altering the query to always return true, bypassing authentication. This can lead to unauthorized access to sensitive data like usernames, passwords, or financial information. Defenses include proper input validation, parameterized queries, and prepared statements.
+                </p>
+                <a id="appButton" href="http://localhost:5000" target="_blank">Download the app</a>
+            </div>
+
+            <div class="contentBox" id="bufferContent">
+                <h1>Buffer Overflow</h1>
+                <p>
+                    A buffer overflow occurs when a program writes more data to a memory buffer than it can hold, causing adjacent memory to be overwritten. This vulnerability is often exploited by attackers to execute malicious code, crash the system, or gain unauthorized access. Buffer overflows are commonly caused by poorly written code that does not check input lengths. Preventive measures include using secure coding practices, bounds checking, and modern tools like address space layout randomization (ASLR).
+                </p>
+            </div>
+
+            <div class="contentBox" id="xssContent">
+                <h1>Cross Site Scripting (XSS)</h1>
+                <p>
+                    Cross-Site Scripting is a vulnerability where attackers inject malicious scripts into web pages viewed by other users. This typically occurs when a website fails to sanitize user input. The malicious scripts can steal cookies, session tokens, or other sensitive information, impersonating the victim. XSS can be prevented by escaping or sanitizing input, employing Content Security Policy (CSP), and validating all user-provided data.
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
