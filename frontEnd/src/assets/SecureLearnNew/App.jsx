@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 
+
+
 function App() {
   // Use state to store the user data
   const [data, setData] = useState([]);
