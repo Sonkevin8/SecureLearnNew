@@ -11,7 +11,7 @@ const db = mysql.createConnection({
     host: 'localhost',
     user: "root",
     password: "",
-    database: "securelearn_db"
+    database: "usernames"
 });
 
 db.connect((err) => {
